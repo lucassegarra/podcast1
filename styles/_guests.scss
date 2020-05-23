@@ -1,0 +1,36 @@
+.guests{
+    display: block;
+
+        h2{
+            margin-left: 5%;
+            font-family: $font-titulo;
+            font-size: 36px;
+            letter-spacing: 0;
+            font-weight: 100;
+            color: #060A24;
+            z-index: 2;
+            text-align: left;
+        }
+        .img-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr  ;
+        width: 100%;
+        
+        img{
+            width: 100%;
+        }
+        }
+}
+
+@media (min-width: 600px){
+   
+    .guests{
+    .img-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        width: 100%;
+        }
+    }
+}

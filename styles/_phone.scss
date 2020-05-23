@@ -1,0 +1,54 @@
+.phone{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            margin: 5%;
+            width: 90%;
+            z-index: 2;
+            margin-top: -20px;
+        }
+
+        article{
+            
+            
+            h2{
+                margin-left: 5%;
+                font-family: $font-titulo;
+                font-size: 36px;
+                letter-spacing: 0;
+                font-weight: 100;
+                color: #060A24;
+                z-index: 2;
+                text-align: left;
+                grid-column: 1/2;
+            }
+            p{
+                margin-top: -10px;
+                margin-left: 5%;
+                font-family: $font-texto;
+                font-size: 14px;
+                color: #060A24;
+                z-index: -1;
+            }
+        }
+    }
+
+
+    
+@media (min-width: 600px){
+
+    .phone{
+        flex-direction: row;
+        justify-content: space-around;
+
+        img{
+            width: 457.6px;
+        }
+        article{
+            margin-top: 9%;
+            width: 464px;
+        }
+    }
+}
+
