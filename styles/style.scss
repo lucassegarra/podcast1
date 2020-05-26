@@ -4,14 +4,16 @@ $font-titulo: 'IBM Plex Sans' ;
 $font-texto: 'IBM Plex Mono';
 
 
-
 @import 'header';
+@import 'welcome';
 @import 'main';
 @import 'phone';
 @import 'guests';
 @import 'temas';
 @import 'novedades';
 @import 'footer';
+@import 'navmenu';
+
 
 
 
