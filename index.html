@@ -8,26 +8,28 @@
     <title>Podcast #1</title>       
 </head>
 <body>
-    <nav class="menu-wrap">
-        <img src="./images/logo.svg" alt="logo">
-        <input type="checkbox" class="boton-check" id="boton-check">
-        <div class="hamburguesa">
-            <div></div>
-        </div>
-        <div class="menu-item">
-            <ul>
-                <li><a href="#">EPISODIOS</a></li>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">ENTREVISTAS</a></li>
-                <li><a href="#">TÓPICOS</a></li>
-            </ul>
-        </div>
-    </nav>
+
     <header>
+        <div class="logo-container">
+        <img src="images/logo.svg" alt="Logo BD">
+        </div>
+        <nav class="nav-container">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            <ul class="menu">
+                <li><a href="#S1">EPISODIOS</a></li>
+                <li><a href="#S2">NOSOTROS</a></li>
+                <li><a href="#S3">ENTREVISTAS</a></li>git 
+                <li><a href="#S4">TÓPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome">
         <h1>Hello <span class="tachado">world</span> pale blue dot <span class="blue-dot">.</span></h1>
         <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
         <button>CONOCÉ MAS</button>
-    </header>
+    </section>
     <main>
         <h2>Episodios</h2>
         <iframe class="pod_1" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%"
