@@ -111,7 +111,7 @@ header .nav-container .menu li a:hover {
   color: #00F3BB;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   header .nav-container .menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -186,7 +186,7 @@ header .nav-container .menu li a:hover {
   background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .welcome {
     width: 50%;
     -webkit-box-align: start;
@@ -261,7 +261,7 @@ main:after {
           transform: skewY(-5deg);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   main {
     grid-gap: 50px;
     height: 950px;
@@ -340,7 +340,7 @@ main:after {
   z-index: -1;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .phone {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -387,7 +387,7 @@ main:after {
   width: 100%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .guests .img-container {
     display: -ms-grid;
     display: grid;
@@ -431,7 +431,7 @@ main:after {
   letter-spacing: 0;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .temas .grid-tema {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -504,7 +504,7 @@ main:after {
   z-index: -1;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .novedades {
     height: 518px;
   }
@@ -564,7 +564,7 @@ footer .media a {
   font-size: 16px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   footer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
