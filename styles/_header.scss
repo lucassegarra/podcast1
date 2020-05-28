@@ -92,10 +92,36 @@ header {
                 transition: .5s ease;
                 }
         
-            a:hover {
+            li a:hover {
                   text-decoration: line-through;
                   color: #00F3BB;
                 }
+      
         }
     }  
+}
+
+
+
+
+@media (min-width: 600px) {
+
+  header .nav-container .menu {
+    display: flex;
+    position: relative;
+    left: 0;
+    margin-right: 2em;
+    max-height: 100%;
+    background-color:#FFFFFF ;
+
+    a{
+      padding: 10px 10px;
+      color: #060A24;
+      line-height: 28px;
+    }
+  }
+
+  .menu-icon{
+    display: none;
+  }
 }
