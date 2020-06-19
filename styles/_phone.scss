@@ -1,17 +1,13 @@
 .phone{
         display: flex;
         flex-direction: column;
-
         img{
             margin: 5%;
             width: 90%;
             z-index: 2;
             margin-top: -20px;
         }
-
         article{
-            
-            
             h2{
                 margin-left: 5%;
                 font-family: $font-titulo;
@@ -33,15 +29,11 @@
             }
         }
     }
-
-
-    
 @media (min-width: 768px){
 
     .phone{
         flex-direction: row;
         justify-content: space-around;
-
         img{
             width: 457.6px;
         }

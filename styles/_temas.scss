@@ -1,5 +1,4 @@
 .temas{
-
     h2{
         margin-left: 5%;
         font-family: $font-titulo;
@@ -10,16 +9,13 @@
         z-index: 2;
         text-align: left;
     }
-
     .grid-tema{
         position: relative;
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: 1fr 1fr 1fr;
-
             .icon-container{
                 text-align: center;
-
                 h3{
                     font-family: $font-titulo;
                     font-size: 24px;
@@ -27,18 +23,13 @@
                     letter-spacing: 0;
                 }
             }
-
-
     }
 }
 
 @media (min-width: 768px){
     
-    .temas{
-
-    .grid-tema{
+    .temas .grid-tema{
         grid-template-columns: 1fr 1fr 1fr 1fr  ;
         grid-template-rows: 1fr  ;
     }
-}
 }

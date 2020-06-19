@@ -3,6 +3,7 @@
 header {
   margin: 0 auto;
   width: 100%;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,6 +143,8 @@ header .nav-container .menu li a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 90%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .welcome h1 {
@@ -188,7 +191,7 @@ header .nav-container .menu li a:hover {
 
 @media (min-width: 768px) {
   .welcome {
-    width: 50%;
+    width: 100%;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
@@ -196,7 +199,6 @@ header .nav-container .menu li a:hover {
   .welcome h1 {
     margin-left: 10%;
     font-size: 64px;
-    width: 900px;
     margin-bottom: 2%;
   }
   .welcome h1 .blue-dot {

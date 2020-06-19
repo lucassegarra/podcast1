@@ -6,8 +6,6 @@
     align-items: center;
     width: 100%;
     height: 341px;
-    
-
         h2{
             margin-bottom: 65%; 
             font-family: $font-titulo;
@@ -35,9 +33,8 @@
         button:hover{
         color: #ffffff;
         background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-        }
-    }
-
+        } 
+}
 .novedades:after{
     position: absolute;
     width: 100%;
@@ -53,8 +50,6 @@
 
     .novedades{
         height: 518px;
-    
-
         h2{
             font-size: 48px;
             margin-top: 5%;

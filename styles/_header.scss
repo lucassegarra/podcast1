@@ -1,6 +1,7 @@
 header {
     margin: 0 auto;
     width: 100%;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +34,7 @@ header {
             transition: background .2s ease-out;
             width: 18px;
           }
-          
+
         .nav-icon:before,
         .nav-icon:after {
             background: #060A24;
@@ -43,32 +44,29 @@ header {
             position: absolute;
             transition: all .2s ease-out;
             width: 100%;
-          }
-          
+          } 
         .nav-icon:before {
             top: 5px;
-          }
-          
+          } 
         .nav-icon:after {
             top: -5px;
           }
 
-        
+
         .menu-btn:checked ~ .menu-icon .nav-icon {
             background: transparent;
-          }
-          
+          } 
         .menu-btn:checked ~ .menu-icon .nav-icon::before {
             transform: rotate(-45deg);
             top:0;
           }
-          
+
         .menu-btn:checked ~ .menu-icon .nav-icon::after {
             transform: rotate(45deg);
             top:0;
           }
 
-        
+          
         .menu-btn:checked ~ .menu {
             max-height: 100%;
           }
@@ -79,11 +77,9 @@ header {
             background-color: #0000EC;
             position: absolute;
             left: 0;
-            width: 100%;
             max-height: 0;
             display: block;
             transition: .3s ease-in-out;
-
             a {
                 display: block;
                 padding: 1em;
@@ -91,12 +87,10 @@ header {
                 color:#FFFFFF;
                 transition: .5s ease;
                 }
-        
             li a:hover {
                   text-decoration: line-through;
                   color: #00F3BB;
                 }
-      
         }
     }  
 }
