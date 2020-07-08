@@ -12,11 +12,14 @@ $font-texto: 'IBM Plex Mono';
 @import 'temas';
 @import 'novedades';
 @import 'footer';
-@import 'navmenu';
 
 
 
-
-body{
-    margin: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+    border: 0;
+    outline: none;
 }

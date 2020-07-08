@@ -80,6 +80,8 @@ header {
             max-height: 0;
             display: block;
             transition: .3s ease-in-out;
+            width: 100%;
+            box-sizing: border-box;
             a {
                 display: block;
                 padding: 1em;
